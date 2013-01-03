@@ -42,7 +42,31 @@ After that, you only have to use the service where ever you want:
 $my_service = $this->get('exampleManager');
 ```
 
-The class for yor code used in the service is in the folder "giving bundle"/Manager/exampleManager.php 
+The class for your code used in the service is in the folder BundleGiven/Manager/exampleManager.php 
+``` php
+<?php
+namespace BundleGiven\Manager;                                                                                                                                                                                                                                             
+                                                                                
+use Doctrine\ORM\EntityManager;                                                 
+                                                                                                                                                                                                                                          
+class exampleManager                                                               
+{                                                                               
+    protected $em;                                                              
+                                                                                
+    public function __construct(EntityManager $em){                             
+                                                                                
+        $this->em = $em;                                              
+    }                                                                  
+                                                                                                                                                            
+    public function getInfo() {                                                 
+                                                                      
+        return "name: exampleManager";                                                                                                                          
+    }                                                                           
+    
+    //... your code
+                                                                                
+}             
+```
 
 ### ToDo
 
