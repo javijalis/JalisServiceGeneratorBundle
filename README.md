@@ -1,11 +1,12 @@
 # Generator Services bundle for Symfony2
 
-This package contains a bundle to easily create basic services efficiently and without effort by line command, ready for use.
+This package contains a bundle to easily create basic services efficiently and without effort by command line.
 
-This add a new command line app/console generate:service that create all the config and code for a basic service:
+The packeage add a new command line <strong>app/console generate:service</strong> that create all the config and code for a basic service:
 
 - Modify the services.xml
 - Create a Lib Class
+- Inject dependencies (Entity Manager)
 
 ## HOW TO:
 
