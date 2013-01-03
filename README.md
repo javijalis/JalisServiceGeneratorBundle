@@ -7,7 +7,12 @@ This add a new command line app/console generate:service that create all the con
 - Modify the services.xml
 - Create a Lib Class
 
-HOW TO:
+## HOW TO:
+
+``` php
+
+$ app/console generate:service
+```
 
 ``` php
 Your service code must be written in Manager directory. This command helps
@@ -32,3 +37,5 @@ After that, you only have to use the service where ever you want:
 ``` php
 $my_service = $this->get('exampleManager');
 ```
+
+You can write your code for the service in the folder "Manager" created, in the class nameManager.php
