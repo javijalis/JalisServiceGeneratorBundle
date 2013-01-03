@@ -41,4 +41,5 @@ After that, you only have to use the service where ever you want:
 $my_service = $this->get('exampleManager');
 ```
 
-You can write your code for the service in the folder "Manager" created, in the class nameManager.php
+The class for yor code used in the service is in the folder "giving bundle"/Manager/exampleManager.php 
+
