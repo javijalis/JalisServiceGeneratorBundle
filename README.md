@@ -2,13 +2,13 @@
 
 This package contains a bundle to easily create basic services efficiently and without effort by command line.
 
-The packeage add a new command line <strong>app/console generate:service</strong> that create all the config and code for a basic service:
+The package add a new command line <strong>app/console generate:service</strong> that create all the config and code for a basic service:
 
-- Modify the services.xml
+- Modify the services.xml (only works for xml language)
 - Create a Lib Class
 - Inject dependencies (Entity Manager)
 
-## HOW TO:
+## How to:
 
 Execute the command:
 
@@ -44,3 +44,9 @@ $my_service = $this->get('exampleManager');
 
 The class for yor code used in the service is in the folder "giving bundle"/Manager/exampleManager.php 
 
+### ToDo
+
+- Option for create Twig extensions
+- Add more options for inject more native services (monolog, mailer) and own services
+- Refactor Command class code
+- What about services in yml?
