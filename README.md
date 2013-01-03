@@ -9,10 +9,13 @@ This add a new command line app/console generate:service that create all the con
 
 ## HOW TO:
 
+Execute the command:
+
 ``` php
 
 $ app/console generate:service
 ```
+Follow the instructions:
 
 ``` php
 Your service code must be written in Manager directory. This command helps
