@@ -2,7 +2,7 @@
     "name": "jalis/service-generator",
         "type": "symfony-bundle",
         "description": "Symfony2 Bundle for create services by command line",
-        "keywords": ["service","dependency injection","generator"],
+        "keywords": ["symfony2","service","dependency injection","generator"],
         "homepage": "https://github.com/javijalis/JalisServiceGeneratorBundle.git",
         "license": "MIT",
         "authors": [
