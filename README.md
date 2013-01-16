@@ -42,8 +42,6 @@ If you're using the `bin/vendors.php` method to manage your vendor libraries,
 add the following entries to the `deps` in the root of your project file:
 
 ```
-
-
 [JalisServiceGeneratorBundle]
     git=https://github.com/javijalis/JalisServiceGeneratorBundle.git
     target=/bundles/Jalis/Bundle/ServiceGeneratorBundle
