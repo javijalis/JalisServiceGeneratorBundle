@@ -22,7 +22,7 @@ your dependencies in a `composer.json` file:
 ``` json
 {
     "require-dev": {
-        "jalis/service-generator": "*"
+        "jalis/service-generator": "dev-master"
     }
 }
 ```
